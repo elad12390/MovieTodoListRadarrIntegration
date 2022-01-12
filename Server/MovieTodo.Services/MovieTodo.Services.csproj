@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MovieTodo.Common\MovieTodo.Common.csproj" />
+      <ProjectReference Include="..\MovieTodo.Data\MovieTodo.Data.csproj" />
+      <ProjectReference Include="..\MovieTodo.Entities\MovieTodo.Entities.csproj" />
+      <ProjectReference Include="..\MovieTodo.Models\MovieTodo.Models.csproj" />
+      <ProjectReference Include="..\MovieTodo.Repositories\MovieTodo.Repositories.csproj" />
+    </ItemGroup>
+
+</Project>

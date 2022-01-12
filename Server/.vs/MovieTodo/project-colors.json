@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9dcbb45b-b627-4bf3-a8ef-8ee86c900cf3": {
+      "ProjectGuid": "9dcbb45b-b627-4bf3-a8ef-8ee86c900cf3",
+      "DisplayName": "MovieTodo.Api",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
